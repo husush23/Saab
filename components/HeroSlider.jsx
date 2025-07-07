@@ -26,23 +26,29 @@ const HeroSlider = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prev) => (prev + 1) % slides.length);
-    }, 5000); // 5 seconds per slide
+    }, 5000);
     return () => clearInterval(timer);
   }, []);
 
   return (
     <div
       id="hero"
-      className="relative h-[80vh] w-full flex items-center justify-center text-white overflow-hidden"
+      className="relative h-[80vh] w-full flex items-center justify-center overflow-hidden"
     >
+      {/* Background Image */}
       <img
         src={slides[index].image}
         alt={slides[index].title}
-        className="absolute inset-0 w-full h-full object-cover opacity-70 transition-all duration-1000"
+        className="absolute inset-0 w-full h-full object-cover transition-all duration-1000"
       />
-      <div className="relative z-10 text-center px-4 max-w-3xl">
-        <h1 className="text-4xl md:text-5xl font-bold">{slides[index].title}</h1>
-        <p className="mt-4 text-lg md:text-xl">{slides[index].caption}</p>
+
+      {/* Black Overlay */}
+      <div className="absolute inset-0 bg-black/50"></div>
+
+      {/* Text Content */}
+      <div className="relative z-10 text-center px-6 text-white max-w-3xl">
+        <h1 className="text-4xl md:text-5xl font-extrabold drop-shadow-md">{slides[index].title}</h1>
+        <p className="mt-4 text-lg md:text-xl drop-shadow-sm">{slides[index].caption}</p>
       </div>
     </div>
   );
