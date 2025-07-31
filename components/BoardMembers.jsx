@@ -6,7 +6,7 @@ import { FaUserTie, FaGavel, FaPenFancy, FaMoneyCheckAlt } from 'react-icons/fa'
 
 const boardMembers = [
   {
-    name: 'Moahamed Absiaziz Abdi',
+    name: 'Moahamed Abdiaziz Abdi',
     title: 'Executive Director',
     image: '/board/moha.jpeg',
     description:
