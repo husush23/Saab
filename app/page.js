@@ -1,3 +1,4 @@
+import Board from '@/components/Board';
 import BoardMembers from '@/components/BoardMembers';
 import Header from '@/components/Header';
 import HeroSlider from '@/components/HeroSlider';
@@ -105,6 +106,7 @@ export default function HomePage() {
         </section>
         
         <BoardMembers/>
+        <Board/>
 
         {/* Get Involved */}
         <section id="contact" className="py-20 px-6 bg-white text-center text-gray-800">
