@@ -41,10 +41,10 @@ const Board = () => {
     <section id="team" className="bg-white py-20 px-6">
       <div className="max-w-7xl mx-auto text-center flex flex-col items-center">
         <h2 className="text-4xl font-bold text-blue-600 mb-4 tracking-tight">
-          Our Leadership Team
+          Our Board Team
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto text-lg mb-12">
-          Meet the dedicated individuals guiding Madasha Saab&apos;s mission with vision, integrity, and purpose.
+          Meet the dedicated individuals helping Madasha Saab&apos;s mission with vision, integrity, and purpose.
         </p>
 
         {/* Grid Wrapper */}
