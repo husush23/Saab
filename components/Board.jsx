@@ -26,13 +26,13 @@ const boardMembers = [
     name: 'Hafiifa Mohamed Ahmed',
     image: '/board/hanifa.jpeg',
     description:
-      'Hafiifa Mohamed Ahmed is a policy researcher pursuing postgraduate studies at Vienna University. Her interests include governance, institutional development, and strategies for long-term social transformation.',
+      'Hafiifa is a BSc. Statistics graduate with expertise in data analysis, research, and problem-solving. She is a certified TLX facilitator, skilled in guiding learning experiences and fostering collaboration. Actively engaged in community organizations and feeding programs, she demonstrates strong leadership, teamwork, and a commitment to social impact',
   },
   {
     name: 'Mohamed Ahmed Caris',
     image: '/board/ahmed.jpeg',
     description:
-      'Mohamed Ahmed Caris is a scholar of public policy with expertise in governance and institutional development. His vision emphasizes innovation and sustainable progress for inclusive communities.',
+      'Mohamed Ahmed Caris is a public policy scholar pursuing postgraduate studies at Vienna University. He focuses on good governance, institutional development, and policy innovation, with a vision for sustainable social and economic transformation.',
   },
 ];
 

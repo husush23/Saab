@@ -105,7 +105,7 @@ export default function HomePage() {
           </div>
         </section>
         
-        <BoardMembers/>
+        {/* <BoardMembers/> */}
         <Board/>
 
         {/* Get Involved */}
