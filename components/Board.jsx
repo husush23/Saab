@@ -11,10 +11,10 @@ const boardMembers = [
       'Fartuun Mohamed Osman is a scholar in Social Sciences and advanced Islamic Studies. She is committed to community development in Kenya, focusing on social awareness, youth empowerment, and connecting knowledge with meaningful change.',
   },
   {
-    name: 'Abdullahi Abdikarim',
-    image: '/board/abdullahi.jpeg',
+    name: 'Ahmed Mohamed Farah (Dheeli)',
+    image: '/board/dheeli.jpeg',
     description:
-      'Abdullahi Abdikarim Ismail is an experienced youth leader engaged in community growth and sustainable programs. His work emphasizes leadership, empowerment, and opportunities for young people to thrive.',
+      'Dr. Ahmed Mohamed Farah Dheeli is a PhD holder specializing in Social Sciences and Community Development, with strong expertise in managing public interest programs. He is recognized for his leadership, strategic vision, and commitment to advancing inclusive growth and sustainable social progress.',
   },
   {
     name: 'Anas Hassan Abdulle',
@@ -26,7 +26,7 @@ const boardMembers = [
     name: 'Hafiifa Mohamed Ahmed',
     image: '/board/hanifa.jpeg',
     description:
-      'Hafiifa is a BSc. Statistics graduate with expertise in data analysis, research, and problem-solving. She is a certified TLX facilitator, skilled in guiding learning experiences and fostering collaboration. Actively engaged in community organizations and feeding programs, she demonstrates strong leadership, teamwork, and a commitment to social impact',
+      'Hafiifa is a Kenyan BSc. Statistics graduate with expertise in data analysis, research, and problem-solving. She is a certified TLX facilitator, skilled in guiding learning experiences and fostering collaboration. Proudly rooted in Kenya, she actively engages in community organizations and feeding programs, demonstrating strong leadership, teamwork, and a commitment to social impact.',
   },
   {
     name: 'Mohamed Ahmed Caris',
